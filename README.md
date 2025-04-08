@@ -1,61 +1,61 @@
-# AUTO - Digital Marketplace with AI
+# AUTO - Pasar Digital Canggih dengan Kekuatan AI
 
-A complete digital marketplace solution with AI-powered automation, Shopee integration, and automatic product delivery.
+Solusi pasar digital lengkap yang didukung otomatisasi berbasis AI, terintegrasi dengan Shopee, dan pengiriman produk otomatis secepat kilat!
 
-## Project Overview
+## Sekilas tentang AUTO
 
-AUTO is a comprehensive platform for selling and delivering digital products with AI-powered automation. It consists of three main components:
+AUTO adalah platform revolusioner untuk menjual dan mengirimkan produk digital dengan sentuhan ajaib otomatisasi AI. Dibangun dengan tiga pilar utama yang saling melengkapi:
 
-1. **Backend (FastAPI)**: Handles API requests, database operations, AI processing, and product delivery
-2. **Frontend (Next.js)**: Provides user interface for managing products, orders, and AI settings
-3. **Browser Extension (Plasmo)**: Integrates with Shopee marketplace for order monitoring and product delivery
+1. **Backend (FastAPI)**: Otak di balik layar yang mengelola permintaan API, operasi database, pemrosesan AI, dan pengiriman produk.
+2. **Frontend (Next.js)**: Antarmuka pengguna yang elegan untuk mengatur produk, pesanan, dan pengaturan AI dengan mudah.
+3. **Ekstensi Browser (Plasmo)**: Jembatan cerdas yang terhubung dengan Shopee untuk memantau pesanan dan mengirimkan produk secara instan.
 
-## Features
+## Fitur Unggulan
 
-### Core Features
-- User authentication and authorization
-- Product management (templates, accounts, links, vouchers)
-- Order processing and tracking
-- Digital product delivery automation
-- Shopee marketplace integration
+### Fitur Inti
+- Sistem autentikasi dan otorisasi pengguna yang aman.
+- Manajemen produk super fleksibel (template, akun, tautan, voucher).
+- Pemrosesan dan pelacakan pesanan yang mulus.
+- Otomatisasi pengiriman produk digital tanpa repot.
+- Integrasi langsung dengan pasar Shopee.
 
-### AI Features
-- AI-powered chat responses for customer inquiries
-- Vector database (Pinecone) for accurate FAQ responses
-- Graph database (Neo4j) for long-term memory
-- Configurable AI settings at store, product, and user levels
+### Keajaiban AI
+- Respons obrolan cerdas berbasis AI untuk menjawab pertanyaan pelanggan.
+- Database vektor (Pinecone) untuk jawaban FAQ yang tepat sasaran.
+- Database graf (Neo4j) sebagai memori jangka panjang yang andal.
+- Pengaturan AI yang bisa disesuaikan untuk toko, produk, dan pengguna.
 
-## Project Structure
+## Struktur Proyek
 
-- `backend/`: Python FastAPI backend
-- `frontend/`: Next.js frontend
-- `extension/`: Plasmo browser extension
-- `docs/`: Documentation
+- `backend/`: Jantung Python FastAPI yang bertenaga.
+- `frontend/`: Tampilan Next.js yang memukau.
+- `extension/`: Ekstensi browser Plasmo yang inovatif.
+- `docs/`: Panduan lengkap untuk menyelami proyek.
 
-## Documentation
+## Dokumentasi
 
-- [Project Overview](docs/index.md)
-- [System Architecture](docs/architecture.md)
-- [API Documentation](docs/api.md)
-- [AI Integration Guide](docs/ai-integration.md)
-- [Project Structure](docs/project-structure.md)
-- [Project Summary](docs/summary.md)
+- [Sekilas Proyek](docs/index.md)
+- [Arsitektur Sistem](docs/architecture.md)
+- [Dokumentasi API](docs/api.md)
+- [Panduan Integrasi AI](docs/ai-integration.md)
+- [Struktur Proyek](docs/project-structure.md)
+- [Ringkasan Proyek](docs/summary.md)
 
-## Setup Instructions
+## Cara Memulai
 
-### Backend Setup
+### Menyiapkan Backend
 
-1. Navigate to the backend directory:
+1. Masuk ke direktori backend:
 ```
 cd backend
 ```
 
-2. Create a virtual environment:
+2. Buat lingkungan virtual:
 ```
 python -m venv venv
 ```
 
-3. Activate the virtual environment:
+3. Aktifkan lingkungan virtual:
 ```
 # Windows
 venv\Scripts\activate
@@ -64,82 +64,82 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-4. Install dependencies:
+4. Pasang dependensi:
 ```
 pip install -r requirements.txt
 ```
 
-5. Create a `.env` file with the necessary environment variables (see `backend/README.md` for details)
+5. Buat file `.env` dengan variabel yang dibutuhkan (lihat `backend/README.md` untuk detailnya).
 
-6. Initialize the database:
+6. Inisialisasi database:
 ```
 python init_db.py
 ```
 
-7. Run the server:
+7. Jalankan server:
 ```
 uvicorn app.main:app --reload
 ```
 
-### Frontend Setup
+### Menyiapkan Frontend
 
-1. Navigate to the frontend directory:
+1. Masuk ke direktori frontend:
 ```
 cd frontend
 ```
 
-2. Install dependencies:
+2. Pasang dependensi:
 ```
 npm install
 ```
 
-3. Create a `.env.local` file with the necessary environment variables (see `frontend/README.md` for details)
+3. Buat file `.env.local` dengan variabel yang diperlukan (lihat `frontend/README.md` untuk detailnya).
 
-4. Run the development server:
+4. Jalankan server pengembangan:
 ```
 npm run dev
 ```
 
-### Browser Extension Setup
+### Menyiapkan Ekstensi Browser
 
-1. Navigate to the extension directory:
+1. Masuk ke direktori ekstensi:
 ```
 cd extension/auto-extension
 ```
 
-2. Install dependencies:
+2. Pasang dependensi:
 ```
 npm install
 ```
 
-3. Run the development server:
+3. Jalankan server pengembangan:
 ```
 npm run dev
 ```
 
-4. Load the extension in your browser (see `extension/auto-extension/README.md` for details)
+4. Muat ekstensi di browser Anda (lihat `extension/auto-extension/README.md` untuk panduan).
 
-## Technologies Used
+## Teknologi yang Digunakan
 
 ### Backend
-- Python 3.9+
-- FastAPI
-- SQLAlchemy
-- Pinecone (Vector Database)
-- Neo4j (Graph Database)
-- OpenAI API
+- Python 3.9+: Bahasa yang kuat dan fleksibel.
+- FastAPI: API cepat dan modern.
+- SQLAlchemy: Pengelolaan database yang tangguh.
+- Pinecone: Database vektor untuk pencarian cerdas.
+- Neo4j: Database graf untuk memori kontekstual.
+- OpenAI API: Kekuatan AI generatif.
 
 ### Frontend
-- Next.js 14
-- React 19
-- TypeScript
-- Tailwind CSS
+- Next.js 14: Framework React tercanggih.
+- React 19: UI yang responsif dan dinamis.
+- TypeScript: Kode yang rapi dan aman.
+- Tailwind CSS: Desain stylish dalam sekejap.
 
-### Browser Extension
-- Plasmo
-- React
-- TypeScript
+### Ekstensi Browser
+- Plasmo: Fondasi ekstensi yang solid.
+- React: Komponen yang interaktif.
+- TypeScript: Keandalan dalam setiap baris kode.
 
-## License
+## Lisensi
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Proyek ini dilisensikan di bawah MIT License—lihat file LICENSE untuk detailnya.
